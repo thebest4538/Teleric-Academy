@@ -1,0 +1,11 @@
+using System;
+
+class consoleapplication1
+{
+    static void Main()
+    {
+        double w = double.Parse(Console.ReadLine());
+        w = w * 0.17;
+        Console.WriteLine("{0:0.000}",w);
+    }
+}
