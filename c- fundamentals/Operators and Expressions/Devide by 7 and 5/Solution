@@ -1,0 +1,21 @@
+using System;
+
+
+namespace Devideby5and7
+{
+    class Program
+    {
+        static void Main()
+        {
+            int a = int.Parse(Console.ReadLine());
+            if ( a % 7 ==0 && a % 5 == 0)
+            {
+                Console.WriteLine("true" + " " + a);
+            }
+            else
+            {
+                Console.WriteLine("false" + " " + a);
+            }
+        }
+    }
+}
